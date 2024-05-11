@@ -1,0 +1,22 @@
+<div class="container mt-5">
+   <div class="row">
+    <div class="col-lg-1">
+      <img lazyLoad="{{card.avatar}}" class=" w-100 rounded-3 m-auto" alt="avatar" loading="lazy" data-aos="fade-down">
+    </div>
+    <div class="col-lg-11 mt-lg-0 mt-md-3 mt-sm-3 mt-3">
+      <div class="desktop" data-aos="fade-down">
+        <p>First Name:- {{card.first_name}}</p>
+        <p>Last Name:- {{card.last_name}}</p>
+        <p>Email:- {{card.email}}</p>
+      </div>
+      <div class="mobile" data-aos="fade-down">
+        <p class="text-center">{{card.first_name}} {{card.last_name}}</p>
+        <p class="text-center">{{card.email}}</p>
+      </div>
+    </div>
+   </div>
+
+   <div class="text-end">
+    <button mat-raised-button color="primary" (click)="goBack()" type="button">Back</button>
+   </div>
+  </div>

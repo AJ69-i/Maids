@@ -1,0 +1,8 @@
+.custom-card {
+  cursor: pointer;
+  transition: transform 0.4s ease-in-out;
+
+  &:hover {
+    transform: translateY(-10px);
+  }
+}
